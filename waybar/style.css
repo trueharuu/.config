@@ -1,0 +1,46 @@
+window#waybar {
+    background-color: #1e1e2e;
+    color: #cdd6f4;
+    font-family: 'Terminess Nerd Font Mono';
+    font-size: 12px;
+}
+
+#workspaces {
+    background-color: #1e1e2e;
+    border-radius: 0px 0px 0px 0px;
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+#workspaces button {
+    padding: 0px 5px;
+    margin: 0px 0px;
+    color: #cdd6f4;
+    border: none;
+    text-shadow: none;
+    outline: none;
+    box-shadow: none;
+}
+
+#workspaces button.empty {
+    color: #6c7086;
+}
+
+#workspaces button.active {
+    color: #f38ba8;
+}
+
+#workspaces button.urgent {
+    color: #f9e2af;
+}
+
+#workspaces button:hover {
+    transition: none;
+    background: #1e1e2e;
+    border: none;
+    text-shadow: none;
+    outline: none;
+    box-shadow: none;
+    padding: 0px 5px;
+    color: #a6adc8;
+}
